@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louis Carroll's Drawing School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #4682b4;
+            color: white;
+            padding: 0.5em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2em;
+        }
+        .mission {
+            background-color: #7fffd4;
+            padding: 1em;
+            border-radius: 8px;
+            margin-bottom: 2em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            border: 2px solid #4682b4;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Louis Carroll's Drawing School</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>At Louis Carroll's Drawing School, we aim to help children get in touch with their creativity through the art of drawing. Our classes and resources are designed to inspire and nurture young artists.</p>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="https://example.com/titanic1.jpg" alt="Drawing of the Titanic 1">
+                <img src="https://example.com/titanic2.jpg" alt="Drawing of the Titanic 2">
+                <img src="https://example.com/titanic3.jpg" alt="Drawing of the Titanic 3">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Contact us at <a href="mailto:info@louiscarrollsdrawingschool.com">info@louiscarrollsdrawingschool.com</a></p>
+    </footer>
+</body>
+</html>
